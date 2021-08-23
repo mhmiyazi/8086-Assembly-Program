@@ -10,7 +10,7 @@
 .DATA 
     MESSAGE  DB 'The Alarming time is : $'      
     TIME_STAMP DB '00:00:00$'         
-.CODE 
+MH_MIYZI: 
    MAIN PROC 
      MOV AX, @DATA              
      MOV DS, AX 
@@ -81,4 +81,4 @@
             POP DX 
             RET 
       CONVERT ENDP                    
- END MAIN
+ END MH_MIYZI
